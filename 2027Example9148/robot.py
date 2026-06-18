@@ -4,7 +4,7 @@
 
 import wpilib
 import rev
-# todo: install
+
 class Robot(wpilib.TimedRobot):
     def __init__(self):
         super().__init__()
