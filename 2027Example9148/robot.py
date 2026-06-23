@@ -16,3 +16,6 @@ class Robot(wpilib.TimedRobot):
 
     def teleopPeriodic(self):
         self.robotDrive.tankDrive(-self.driverController.getLeftY(), -self.driverController.getRightY())
+
+if __name__ == "__main__":
+    wpilib.run(Robot)
